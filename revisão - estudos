@@ -1,0 +1,134 @@
+# Estudos e Revisão 
+
+Estudos realizados na biblioteca para revesiar o conteudo da cadeira de engenharia de requisitos.
+Resumo do PDF apresentado na "Aula - 1" 
+PDF: "Aula 01 - Diagrama de casos de uso Arquivo.pdf"
+
+# Casos de Usos:
+  os objetivos principais dos casos de usos são: 
+    
+    * Compreender: Dominar os conceitos principais da Engenharia de requisitos 
+    
+    * Entender: a importancia dos casos de usos e saber principalmente quem vai utilizar este caso de uso criado 
+    
+    * Compreender: Como criar diagramas e especificações de casos de usos 
+    
+    * Estimular: Analisé de situações do cotidiano vividas por um engenheiro de requisistos        
+    
+    
+Requisitos de software ? 
+    * Funcionalidades/Serviços fornecidos pelo sistema e as suas restrições operacionais 
+    * As descrições das funções e das restrições são os requisitos para o sistema 
+
+Engenharia de requisitos ? 
+    * O processo de descobrir, analisar, documentar e verificar suas restrições.
+
+Algumas observações:
+  * Em alguns casos, um requisito é visto como uma declaração abstrata, de alto nível de uma funcionalidade que o sistema 
+  deve fornecer ou de uma restrição do sistema 
+  
+  * Por outro lado, ele pode ser uma definição detalhada e formal de uma funcionalidade do sistema 
+  
+Motivo do problema: 
+  * Falta de uma nítida separação entre os dierentes níveis de abstração das descrições de requisitos 
+  
+Solução: 
+  * Solução para os problemas do desenvolvimento de sistemas, seria realizar uma melhor separação das especificações em 
+requisitos de sistema e de usuario 
+
+O	que	são	requisitos	de	software?
+– São	funcionalidades/serviços	fornecidos	pelo software e	as	suas	restrições	operacionais.
+
+Quais	são	os	tipos	de	requisitos?	
+– Requisitos	de	usuário	
+– Requisitos	de	sistema	
+• Funcionais,	não-funcionais	e	de	domínio	
+
+Requisitos	de	usuário:	
+– São	declarações,	em	um	linguagem	natural	e	também	em	diagramas,	sobre	as	funções	que	o	
+sistema	deve	fornecer	e	as	restrições	sob	as	quais	deve	operar.	
+– São	menos	detalhados	que	os	requisitos	de	sistema	
+
+ Requisitos	de	sistema:	
+– Definem,	detalhadamente,	as	funcionalidades,	os	serviços	e	as	restrições	operacionais	do	sistema	
+– Devem	definir	exatamente	o	que	deve	ser	implementado	
+– Pode	ser	uMlizado	como	uma	forma	de	“contrato”	entre	o	cliente	e	o	responsável	pelo	desenvolvimento	
+– Conhecido	como:	especificação	funcional	
+– Tipos:		
+• funcionais,	não-funcionais	e	de	domínio	
+
+Requisitos	funcionais	(cont.):	
+– Especificam	as	funcionalidades	que	o	sistema	deve	fornecer,	como	o	sistema	deve
+reagir	às	entradas	específicas	e	como	o	sistema	deve	se	comportar	em	determinadas	situações.	
+– Definem	o	que	o	sistema	deve	fazer	e	não	deve	fazer.	
+
+Requisitos	não-funcionais:	
+– São	restrições	sobre	as	funcionalidades	oferecidas	pelo	sistema	
+– Incluem	restrições	de	tempo,	processo	de	desenvolvimento	e	padrões	
+– Geralmente	são	requisitos	transversais,	aqueles	que	se	aplicam,	frequentemente,	ao	sistema	como	um	todo	
+– Em	geral,	não	se	aplicam	às	caracterísMcas	ou	serviços	individuais	do	sistema
+
+
+Requisitos	não-funcionais:	
+
+– Requisitos	organizacionais	
+• Requisitos	de	padrões	
+• Requisitos	de	implementação	
+• Requisitos	de	entrega	
+
+– Requisitos	externos
+• Requisitos	éMcos	
+• Requisitos	de	interoperabilidade	
+• Requisitos	legais	
+– Requisitos	de	privacidade	e	segurança	
+
+
+Requisitos	não-funcionais:	
+
+– Requisitos	de	produto	
+• Requisitos	de	facilidade	de	uso	
+• Requisitos	de	confiabilidade	
+• Requisitos	de	portabilidade	
+• Requisitos	de	eficiência	
+    – Requisitos	de	desempenho	
+    – Requisitos	de	espaço	
+
+Requisitos	não-funcionais:	
+– Requisitos	de	produto	
+• Transição:	Portabilidade,	Interoperabilidade,	reuso	
+• Revisão:	manutenabilidade,	testabilidade,	flexibilidade,	modularidade,	estabilidade	
+• Operação:	eficiência	(espaço	e	desempenho),	integridade,	correção,	e	usabilidade
+
+Requisitos	de	domínio:	
+– São	aqueles	provenientes	do	domínio	da	aplicação	do	sistema	e	que	refletem	as	caracterísMcas	e	as	restrições	desse	domínio	
+– Podem	ser	considerados	funcionais	ou	não	funcionais	
+
+
+Por	que	usar	Casos	de	Uso?	Qual	a	sua	importância?	
+– Descrevem	como	os	usuários	interagem	com	o	sistema	(as	funcionalidades	do	sistema)	
+– Facilitam	a	organização	dos	requisitos	de	um	sistema	
+– Dão	uma	visão	externa	do	sistema	
+– Exercem	um	papel	crucial	na	análise	e	projeto	de	sistemas
+– Os	casos	de	uso	devem	ser	capazes	de	comunicar	a	funcionalidade	e	o	comportamento	do	sistema	para	o	cliente	
+– São	essenciais	durante	a	fase	validação	dos	requisitos	e	implementação 
+Descrevem	o	que	o	sistema	faz,	mas	NÃO especificam	como isso	deve	ser	feito
+
+
+
+# FERRAMENTAS 
+• Borland	Together:
+http://www.borland.com/products/together/
+
+• Poseidon:	
+http://www.gentleware.com
+
+• Astha:	
+http://astah.net/	
+
+• IBM	RaMonal	SoYware	Architect
+http://www.ibm.com/soYware/raMonal
+
+• Enterprise	Architect
+http://www.sparxsystems.com
+
+
