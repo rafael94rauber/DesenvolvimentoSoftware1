@@ -1,0 +1,27 @@
+
+						professor: Kleinner Farias 
+
+	          apresentação do conteudo.
+  
+		*** maneira adequada de especificar os requisitos ???  ****
+    
+			** compreender: conceitos de engenharia, como criar diagramas e casos de uso.
+			Etender: a importancia e quem vai utilizar esse caso de uso 
+			estimular: a analise nas vivencias no cotidiano do analista 
+
+		***definição de requisitos
+    
+			** Em alguns casos, um requisisto é visto como uma declaração abstrata de alto nível 
+			de uma funcionalidade que o sistema vai tem implementado ou uma restrição do sistema 
+			
+			** Por outro lado, ele pode e deve ser uma definição detalhada e formal 
+			de uma funcionalidade do sistema
+
+	
+		*** Tipos de requisitos *** 
+			** requisitos de usuario: resultado dos passos do usuario
+			(descrição de alto nivel do sistema ou funcionalidade )
+
+			** requisitos de sistema: funcionais, não funcionais e de domínio 
+			(descrição detalhada das funcionalidades, devem ser descrições de baixo nivel, 
+			devem definir exatamente o que deve ser implementado) 
