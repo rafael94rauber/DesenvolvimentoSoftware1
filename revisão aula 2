@@ -1,0 +1,113 @@
+Curso: Sistema de Informação
+Cadeira: Desenvolvimento de Software 1
+Professor: Kleinner Farias
+Data: 13/03/2017
+revisao aula 2:
+
+# Revisão diagrama de classes # 
+* Revisão do conteudo apresentado no pdf (Aula 06 - Diagrama de Classes Arquivo.pdf) 
+
+* A modelagem de uma classe representa uma visão statica(ESTRUTURAL) de um projeto de software 
+
+Dentro da modelagem trabalhamos com dois conceitos: 
+
+ *  Dominio da aplicação : Descreve o proprio dominio do problema 
+ *  Projeto da aplicação: Descreve como a implementação deve ser feita(desenvolvida) 
+ 
+  # Elementos do diagrama de classe:  # 
+  
+  * Classe
+    ** Atributos 
+    ** Operações 
+    
+  * Interface
+  
+  * Relacionamento
+    ** Associação 
+      *** Agregação 
+      *** Composição 
+      
+    ** Dependecia 
+    
+    ** Generalização 
+    
+    ** Realização 
+ 
+Descrição mais completa dos elementos sitados acima 
+
+ # Classe: # 
+ * Representa o conceito de Orientação a Objeto(OO), utilizado para representar as entidades de dominio da aplicação 
+ * Possui três compartimentos: Nome, atributos, operações 
+    Nome: Nome da classe 
+    Atributos: variaveis da classe(publicas, privadas e protegidas) 
+    Operações: Ações(metodos e rotinas), estas ações podem ter visibilidades(publicas, privadas e protegidas) 
+        
+ # Interface #
+ * Elemento que especifica os comportamentos ou serviços que serão oferecidos pela classe ou componente 
+ 
+ # Relacionamentos #
+ * Representa uma relação semantica entre elementos do diagrama de classe que será desenvolvida 
+ 
+ # Tipos de relacinamento # 
+ * Associação: Representa a conexão entre os objetos da classe relacionados semanticamente.
+               Representa um relacionamento estrutural entre as classes do projeto.
+               Relaciona não só os classificadores mas tambem suas intancias. 
+               
+  * Notação * > representada por uma linha só lida conectando duas classes 
+  
+  * obs.: -> Se um atributo(ou mais) assume um valor unico em uma associação(relação entre objetos), 
+  então ele é um qualificador(qualiier). 
+             Uma associação pode ter atributos proprio
+  
+  * Elementos de um relacionamento 
+     ** Nome: Descrição dada ao relacionamento(faz, tem, possui)      
+     ** Navegabilidade: Indicada por uma seta no fim do relcionamento 
+     ** Multiplicidade: (0..1, 0..*, 1, 1..*, 2, 3..7)
+     ** Tipo: associação, agregação, composição,  generalização e dependencia 
+     ** Papéis: Desempenhados por classes em um relacionamento 
+          
+  * Relacionamento de associação: Navegabilidade. 
+    * É uma associação navegavel representa uma informação de estado disponivel para a classe 
+    * Pode ser implementado de diferentes formas 
+        
+  # Relacionamento de Associação: Agregação #
+    * É um tipo especial de associação 
+    * Utilizada para indicar um relacionamento do tipo "parte-todo", porem não tem a responsabilidade de gerencias suas partes 
+      
+ # Relacionamento de Associação: Composição # 
+     * É uma variante semanticamente mais forte da agregação 
+     * Representa um relacionamento do tipo "parte-todo" 
+     * O todo é responsavel por gerenciar suas partes 
+     * Os objetos "parte" so podem pertencer a um unico objeto "todo" e tem seu tempo de vida coicidente com o dele 
+     * Quando o "todo" morre todas as suas relações("partes") tambem morrem     
+     
+ # Relacionamento de Dependencia # 
+     * Representa que a alteração de objeto( objeto independente) pode afetar outro objeto( objeto dependente) 
+     * Relacionamento semanticamente mais fraco     
+     
+ # Relacionamento de Generalização # 
+     * É um relacionamento entre elementos mais genericos/estaveis (superclasses) e itens mais especificos/concretos (subclasses)
+     
+ # Relacionamento de Realização # 
+     * Conecta uma classe a uma interface 
+     * Uma interface especifica quais comportamentos uma classe deve implementar 
+     * Nenhum comportamento ou estrutura é oferecido       
+     
+OBSERVAÇÕES GERAIS: 
+* Classe em nivel de Dominio, analise/projeto e implementação 
+  ** Dominio: Windos 
+  ** Analise/projeto: Windows(size, visibility), (Display, hide)  
+  ** Implementação:Windows(size: area = (100,100), visibility: Boolean = true, Default size: rectangle) , (Display(), hide(), attachx(xWin: xWindows) 
+ 
+ Referencias: 
+[DeMarco79] Tom DeMarco, Structured Analysis and SystemSpecifcation, Yourdon Press Computing Series, 1979.
+[PageJones88] Meilir Page-Jones, The Practical Guide toStructured Systems Design, 2ª Ed., Yourdon Press ComputingSeries, 1988.
+[Martin02] Robert C. Martin, Agile Software Development,Principles, Patterns, and Practices, Pearson Education, 2002.
+[Martin02u] Robert C. Martin, UML for Java Programmers,Prentice-Hall, 2002
+[Rumbaugh99] J. Rumbaugh, I. Jacobson, G. Booch, The Unifed Modeling Language Reference Manual, 
+AddisonWesley,2a edition, 1999.[LES.14] Material das Apresentações LES/PUC-Rio,http://www.les.inf.puc-rio.br/wiki/index.php/PSS
+[Larman07] Larman, C.: Utilizando UML e Padrões: uma Introdução à Análise e ao Projeto Orientados a Objetos.Porto Alegre: 
+Bookamn, 2007. 492p. 
+     
+     
+  
