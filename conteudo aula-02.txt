@@ -1,0 +1,25 @@
+Curso: Sistema de Informação
+Cadeira: Desenvolvimento de Software 1
+Professor: Kleinner Farias
+Data: 06/03/2017
+Aula:2
+
+Diagrama de Classes Arquivo.pdf
+
+
+** Quando se tem o diagrama de sequencia ou de classe, pode ser utilizada como documentação. Tambem pode ser utilizada para gerar casos de usos 
+
+** Pode ser utilizada como ducumentação de codigo, para ajudar equipes de desenvolvimento que estão em lugares diferente. 
+
+** Antes de fazer o desenvolvimento da classe deve ser feito o diagrama da classe, para poder evitar possiveis problemas futuros.
+
+** OCL - liguagem de restrição de classe 
+
+
+coisas legais comentadas sobre tecnlogia sobre o professor 
+* zero defeito(profissão de teste) (zero defectory) 
+* MD arte 
+* computação cognitiva 
+* trasnformador de diagrama de classes em codigos 
+
+
